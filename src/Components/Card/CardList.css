@@ -1,0 +1,125 @@
+.all-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100vw;
+
+}
+
+/* .each-card {
+    padding:10px 20px 10px 20px;
+    border-radius: 10px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid purple;
+} */
+/* .Back-button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background: navy;
+    color: white;
+    width: 100px; 
+    cursor: pointer;
+} */
+
+.main-card-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+.main-card-each {
+    padding:20px;
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 200px;
+    box-shadow: 3px 3px 3px 3px #ccc;
+    border-radius: 10px;
+    animation: movecard 1s linear forwards;
+    background: black;
+}
+
+@keyframes big {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.main-card-each:hover{
+    cursor: pointer;
+    animation: big 0.23s linear forwards
+}
+
+.main-card-each img {
+    height: 200px;
+    width: 200px;
+}
+
+.main-card-inner {
+    margin-top: 10px;
+    text-align: center;
+    color:white;
+}
+
+.main-card-inner p:nth-child(1) {
+    font-weight: 600;
+    font-size: 18px;
+}
+.main-card-inner p:nth-child(2) {
+    margin-top: 10px;
+}
+/* .home-page-button-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 15px 8px 15px;
+    border-radius: 10px;
+    background: purple;
+    color: white;
+    width: 100px; 
+    cursor: pointer;
+    flex-wrap: wrap;
+    
+} */
+.Community-text{
+    cursor: pointer;
+    margin-inline: 90px;
+    margin-top: -32px;
+
+}
+.features{
+    cursor: pointer;
+    margin-inline: 240px;
+    margin-top: -32px;
+
+}
+.Navbar{
+    height: 80px;
+    font-family: "Sansita Swashed",cursive;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(0,0,0,.3);
+    font-size: 24px;
+    border-bottom: 2px solid orange;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}

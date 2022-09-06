@@ -1,0 +1,52 @@
+.welcome-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 150px;
+
+}
+
+.welcome-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;   
+}
+
+.welcome-inner div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:10px 20px 10px 20px;
+    border-radius: 10px;
+    background: green;
+    color:white;
+    cursor: pointer;
+}
+
+.welcome-inner div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:10px 20px 10px 20px;
+    border-radius: 10px;
+    background: purple;
+    color:white;
+    cursor: pointer;
+}
+
+.welcome-inner div:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:10px 20px 10px 20px;
+    border-radius: 10px;
+    background: red;
+    color:white;
+    cursor: pointer;
+}

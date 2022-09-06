@@ -1,0 +1,43 @@
+.Card-list{
+    display: flex;
+    justify-content: start;
+    text-align: center; 
+    cursor: pointer;
+}
+.Wecome-page-button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background: pink;
+    color: white;
+    width: 100px; 
+    cursor: pointer;
+    margin-top: 101px;
+}
+.Community-text{
+    cursor: pointer;
+    margin-inline: 90px;
+    margin-top: -32px;
+
+}
+.features{
+    cursor: pointer;
+    margin-inline: 240px;
+    margin-top: -32px;
+
+}
+.Navbar{
+    height: 80px;
+    font-family: "Sansita Swashed",cursive;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(0,0,0,.3);
+    font-size: 24px;
+    border-bottom: 2px solid orange;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
